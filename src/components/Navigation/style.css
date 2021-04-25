@@ -1,0 +1,23 @@
+.Navigation {
+    background-color: rgb(121, 121, 121);
+    padding: 15px 25px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.Navigation__desktop {
+    display: none;
+}
+
+.Navigation__link {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+    .Navigation__desktop {
+        display: initial;
+    }
+}

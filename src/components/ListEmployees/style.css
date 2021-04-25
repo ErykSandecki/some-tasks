@@ -1,0 +1,44 @@
+.ListEmployees__empty {
+    text-align: center;
+}
+
+.ListEmployees__table {
+    width: 960px;
+    margin: 20px auto;
+}
+
+.thead__th {
+    font-weight: 400;
+    background: rgb(49, 44, 44);
+    color: #ffffff;
+}
+
+.thead__tr, 
+.tbody__tr {
+    background: #f4f7f8;
+    border-bottom: 1px solid #FFF;
+    margin-bottom: 5px;
+}
+
+.thead__th, 
+.tbody__th,
+.tbody__tr {
+    text-align: center;
+    padding: 30px;
+    font-weight: 300;
+}
+
+.thead__tr:nth-child(odd),
+.tbody__tr:nth-child(odd) {
+    background: #6e6e6e;
+    color: #ffffff;
+}
+
+.thead__tr:nth-child(even),
+.tbody__tr:nth-child(even) {
+    background: #ebebeb;
+}
+
+.td__button {
+    margin: 0 15px;
+}

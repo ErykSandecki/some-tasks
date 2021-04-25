@@ -1,0 +1,12 @@
+.Decoder__form {
+    max-width: 550px;
+    text-align: right;
+}
+
+.Decoder__button {
+    margin-top: 15px;
+}
+
+.Decoder__result {
+    margin-top: 15px;
+}

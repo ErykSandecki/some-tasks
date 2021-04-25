@@ -1,0 +1,9 @@
+.EditEmployer__form {
+    max-width: 600px;
+    margin: 15px 0;
+    margin-right: auto;
+}
+
+.EditEmployer__button {
+    text-align: right;
+}
