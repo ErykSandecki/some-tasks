@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fib Calculate</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <form onsubmit="calculateFib()">
+      <div class="form-group">
+        <label for="fib">
+          Enter the fibonacci expression string.
+        </label>
+        <input
+          type="number"
+          min="0"
+          class="form-control"
+          required
+          id="fib"
+          placeholder="Value"
+        />
+      </div>
+      <button type="submit" class="btn btn-success">Calculate</button>
+      <button type="button" onclick="clearInput()" class="btn btn-warning">
+        Clear
+      </button>
+    </form>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Expression number</th>
+          <th scope="col">Value</th>
+        </tr>
+      </thead>
+      <tbody id="fib-score"></tbody>
+    </table>
+
+    <p>&copy; 2019 Eryk Sandecki</p>
+
+    <img src="img/logo.png" />
+
+    <script type="text/javascript" src="js/index.js"></script>
+  </body>
+</html>
